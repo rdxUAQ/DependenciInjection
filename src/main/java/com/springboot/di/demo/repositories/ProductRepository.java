@@ -2,9 +2,11 @@ package com.springboot.di.demo.repositories;
 
 import java.util.Arrays;
 import java.util.List;
+import org.springframework.stereotype.Repository;
 
 import com.springboot.di.demo.models.ProductItem;
 
+@Repository
 public class ProductRepository {
 
     private List<ProductItem> data;

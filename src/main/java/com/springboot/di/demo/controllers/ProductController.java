@@ -2,8 +2,9 @@ package com.springboot.di.demo.controllers;
 
 import org.springframework.web.bind.annotation.RestController;
 
-import com.springboot.di.demo.interfaces.IProductService;
+
 import com.springboot.di.demo.models.ProductItem;
+import com.springboot.di.demo.services.ProductService;
 
 import java.util.List;
 
@@ -18,7 +19,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 public class ProductController{
     @Autowired
-    private IProductService _productService;
+    private ProductService _productService;
 
     @GetMapping("getall")
     public List<ProductItem> getall() {

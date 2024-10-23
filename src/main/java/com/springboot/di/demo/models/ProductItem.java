@@ -43,7 +43,6 @@ public class ProductItem implements Cloneable {
     public Object clone()  {
 
         try{
-            // TODO Auto-generated method stub
             return super.clone();
         }catch(CloneNotSupportedException e){
             return new ProductItem(Id, name, price);

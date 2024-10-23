@@ -3,13 +3,19 @@ package com.springboot.di.demo.services;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
+
 import com.springboot.di.demo.interfaces.IProductService;
 import com.springboot.di.demo.models.ProductItem;
 import com.springboot.di.demo.repositories.ProductRepository;
 
+@Service
 public class ProductService implements IProductService{
-
-    private final ProductRepository data = new ProductRepository();
+    
+    @Autowired
+    private ProductRepository data;
 
 
     @Override
