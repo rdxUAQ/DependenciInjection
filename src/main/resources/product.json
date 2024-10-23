@@ -1,0 +1,52 @@
+[
+    {
+      "name": "HammerJSON",
+      "price": 1710,
+      "id": 1
+    },
+    {
+      "name": "ScrewdriverJSON",
+      "price": 912,
+      "id": 2
+    },
+    {
+      "name": "WrenchJSON",
+      "price": 1368,
+      "id": 3
+    },
+    {
+      "name": "DrillJSON",
+      "price": 5130,
+      "id": 4
+    },
+    {
+      "name": "SawJSON",
+      "price": 3420,
+      "id": 5
+    },
+    {
+      "name": "PliersJSON",
+      "price": 1140,
+      "id": 6
+    },
+    {
+      "name": "Tape MeasureJSON",
+      "price": 684,
+      "id": 7
+    },
+    {
+      "name": "LevelJSON",
+      "price": 798,
+      "id": 8
+    },
+    {
+      "name": "ChiselJSON",
+      "price": 1026,
+      "id": 9
+    },
+    {
+      "name": "Utility KnifeJSON",
+      "price": 570,
+      "id": 10
+    }
+  ]

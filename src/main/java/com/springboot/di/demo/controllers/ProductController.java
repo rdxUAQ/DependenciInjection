@@ -28,7 +28,11 @@ public class ProductController{
         return response;
     }
     @GetMapping("id/{id}")
-    public ProductItem getMethodName(@PathVariable Long id) {
+    public ProductItem getMethodName(@PathVariable Long id){
+        //verifiy is a numeric value
+        if(id <= 0) return new ProductItem(0l,"Error product id", 0d);
+        
+
         var product = _productService.getById(id); 
         return product;
     }
