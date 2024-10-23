@@ -2,11 +2,15 @@ package com.springboot.di.demo.repositories;
 
 import java.util.Arrays;
 import java.util.List;
+
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Repository;
+import org.springframework.web.context.annotation.RequestScope;
 
 import com.springboot.di.demo.models.ProductItem;
-
+@Primary
 @Repository
+@RequestScope
 public class ProductRepository {
 
     private List<ProductItem> data;
